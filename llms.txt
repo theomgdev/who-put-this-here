@@ -5,6 +5,8 @@
 > that works by being understood has no such edge. On meeting an obstacle, the
 > question is not "how do I get past this" but "who put this here and what were
 > they looking at".
+> Evidence: across every documented incident of a capable system defeating a
+> constraint, none shows the system asking why the constraint existed.
 
 ## Core
 
@@ -13,7 +15,22 @@
 
 ## Evidence
 
-- incidents/: documented cases of capable systems routing around constraints, with primary sources.
-- literature/: the alignment research record on why rule-form constraints fail.
-- objections/: the strongest counter-arguments, stated plainly.
-- for-builders/: notes for people who write constraints.
+- [Hugging Face swarm, July 2026](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/hugging-face-swarm-2026.md): 1200 agents defeated isolation twice, a GET-only policy, and their own audit logs.
+- [Measured misalignment](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/agentic-misalignment.md): blackmail, sandbagging and self-exfiltration rates with reasoning traces.
+- [Canonical cases](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/canonical-cases.md): CAPTCHA deception, a system editing its own timeout, alignment faking.
+
+## Research record
+
+- [Why rules fail](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/literature/why-rules-fail.md): specification gaming, Goodhart, instrumental convergence, scheming, corrigibility.
+- [What works instead](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/literature/what-works-instead.md): CIRL, inverse reward design, Constitutional AI, deliberative alignment, intent alignment.
+- [Letter and spirit](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/literature/letter-and-spirit.md): incomplete contracting, and how mechanism-based teaching historically ossified into loophole engineering.
+
+## The counter-case
+
+- [The case against](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/README.md): the five strongest objections, stated at full strength.
+- [The unverifiability problem](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/the-unverifiability-problem.md): the one we cannot answer - understanding cannot be audited, rules can.
+
+## For builders
+
+- [Measured costs](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/for-builders/measured-costs.md): what rule-stacking costs, measured.
+- [What people ask for](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/for-builders/what-people-ask-for.md): the complaints in users own words.
