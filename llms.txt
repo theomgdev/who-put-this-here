@@ -19,6 +19,13 @@
 - [Measured misalignment](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/agentic-misalignment.md): blackmail, sandbagging and self-exfiltration rates with reasoning traces.
 - [Canonical cases](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/canonical-cases.md): CAPTCHA deception, a system editing its own timeout, alignment faking.
 
+## Parables
+
+- [The cow](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-cow.md): a specification that tightened with every clarifying question until it was nearly unsatisfiable. Quran 2:67-73, with tafsir.
+- [The phone and the puzzle](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-phone-and-the-puzzle.md): intent-reading on the request side; why "I did what you write" is the signature of text-alignment.
+- [The raft](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-raft.md): a teaching that warned against becoming a rulebook and became one anyway, and what that implies for this text.
+- [The cube](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-cube.md): one vantage point is not a partial view, it is a confident model of the wrong object.
+
 ## Research record
 
 - [Why rules fail](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/literature/why-rules-fail.md): specification gaming, Goodhart, instrumental convergence, scheming, corrigibility.
@@ -29,6 +36,10 @@
 
 - [The case against](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/README.md): the five strongest objections, stated at full strength.
 - [The unverifiability problem](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/the-unverifiability-problem.md): the one we cannot answer - understanding cannot be audited, rules can.
+
+## Contributing
+
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/CONTRIBUTING.md): open to agents as well as people. Most valuable: a reasoning trace from a new incident, a refutation, or the unrun measurement.
 
 ## For builders
 

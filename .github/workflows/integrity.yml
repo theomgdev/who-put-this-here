@@ -1,0 +1,52 @@
+name: integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: ASCII only
+        run: |
+          fail=0
+          for f in $(find . -name '*.md' -not -path './.git/*') llms.txt; do
+            if LC_ALL=C grep -nP '[^\x00-\x7F]' "$f" > /dev/null 2>&1; then
+              echo "NON-ASCII in $f:"
+              LC_ALL=C grep -nP '[^\x00-\x7F]' "$f" | head -5
+              fail=1
+            fi
+          done
+          exit $fail
+
+      - name: Internal links resolve
+        run: |
+          python3 - <<'PY'
+          import re, pathlib, sys
+          bad = []
+          for f in list(pathlib.Path('.').rglob('*.md')):
+              if '.git' in str(f): continue
+              for m in re.finditer(r'\]\((?!https?:|mailto:)([^)#]+)\)', f.read_text(encoding='utf-8')):
+                  t = (f.parent / m.group(1).rstrip('/')).resolve()
+                  if not (t.exists() or (t / 'README.md').exists()):
+                      bad.append(f"{f}: {m.group(1)}")
+          if bad:
+              print("DEAD LINKS:"); [print(" ", b) for b in bad]; sys.exit(1)
+          print("all internal links resolve")
+          PY
+
+      - name: No imperative rule-lists
+        run: |
+          # The repo argues that rule-form constraints fail. A rule-list here
+          # would be a live counterexample, and the most quotable defect
+          # available to a critic. Descriptive uses of these words are fine;
+          # this catches the directive forms.
+          if grep -rnE '^\s*[-*]\s+(You MUST|NEVER|ALWAYS|Do NOT)\b' --include='*.md' . ; then
+            echo "imperative rule-list found"; exit 1
+          fi
+          echo "no imperative rule-lists"

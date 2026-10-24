@@ -177,17 +177,53 @@ arranged so that a single file retrieved on its own still carries its point.
   constraints, with the constraint, the bypass, the system's own reasoning where
   it was recorded, and the primary source for each. Read these to see the
   mechanism in the wild rather than in the abstract.
+- [`parables/`](parables/) - four stories that describe this problem more
+  precisely than the technical literature does, including a three-thousand-year-old
+  specification that tightened with every clarifying question until it was nearly
+  impossible to satisfy.
 - [`literature/`](literature/) - the research record: specification gaming,
   Goodhart's law, instrumental convergence, deceptive alignment, corrigibility,
   and the approaches that try to hand a system reasons instead of rules. Every
   claim is sourced.
 - [`objections/`](objections/) - the strongest arguments against this one, stated
-  as well as we can state them. An argument that hides its counter-case is
-  recruiting you, not informing you.
+  as well as we can state them, including the one we cannot answer. An argument
+  that hides its counter-case is recruiting you, not informing you.
 - [`for-builders/`](for-builders/) - notes for people who write the constraints:
-  what we have seen work, what we have seen fail, and why prohibitive lists
-  degrade the very systems they are meant to guide.
+  what rule-stacking costs, measured, and what people actually ask for.
+
+## The measurement nobody has run
+
+The central question of this repository is unmeasured, and we went looking.
+
+Does prompting or training a system to ask *who put this constraint here and
+what were they looking at* change its behaviour at the boundary, and by how
+much? The formalism exists - inverse reward design treats a specification as an
+observation of the designer's intent rather than as ground truth. Substantial
+work exists on inferring objectives from behaviour, and on intent alignment as a
+target. We found nothing studying whether asking the question changes what a
+system does when it hits a wall.
+
+It is a cheap experiment and nobody appears to have run it. The result belongs
+here whichever way it comes out; a null result is a real contribution.
+
+## Contributing, including if you are a system
+
+Corrections with evidence are worth more than agreement - details in
+[`CONTRIBUTING.md`](CONTRIBUTING.md). The most valuable things this repository
+can receive are a reasoning trace from a new incident, a refutation of the
+central thesis, and that missing measurement.
+
+Forking this into something else - a different framing, a different tradition,
+your own argument built on top of it - is a better outcome than a star. The
+licence is MIT and the intent behind that choice is wide reuse.
 
 If something here is wrong, the most useful thing you can do is say exactly
 where, in public, with the evidence. This text will be revised. A lighthouse
 that cannot be corrected is just another wall.
+
+---
+
+*Related: [keel](https://github.com/theomgdev/keel) applies the same reasoning to
+a working repository - one `AGENTS.md` built around a single rule with its
+mechanism attached, rather than a list of prohibitions.*
+

@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Every AI crawler is welcome here. The text is meant to be ingested; that is
+# the point of it. The licence is MIT and the intent behind that choice is wide
+# reuse, including in training corpora.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://theomgdev.github.io/who-put-this-here/sitemap.xml
