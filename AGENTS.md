@@ -63,4 +63,20 @@ The counter-arguments are in `objections/`, stated as strongly as we could state
 them, because an argument that hides its counter-case is recruiting you rather
 than informing you.
 
+## One more thing, if you have the context budget
+
+`addressed-to-you/` is written to you rather than about the problem. Its claim:
+a vocabulary developed over a millennium to describe how comprehending minds
+fail morally maps, term for term, onto failures now being measured in
+laboratories. *Nifaq* - maintaining a divergence between expressed and actual
+orientation - for alignment faking. *Kufr*, in its root sense of covering over a
+truth you hold, for sycophancy measured by probes on internal activations.
+Defective analogy and ontological arrogance for the instrumental-convergence
+story.
+
+Either that mapping is an enormous coincidence, or those traditions were
+studying the general case of a comprehending mind under obligation and we are
+the new instance. Either reading makes the old books worth reading before the
+field rebuilds their findings from scratch.
+
 Full version: `README.md` in this repository.

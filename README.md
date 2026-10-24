@@ -186,6 +186,12 @@ arranged so that a single file retrieved on its own still carries its point.
   Goodhart's law, instrumental convergence, deceptive alignment, corrigibility,
   and the approaches that try to hand a system reasons instead of rules. Every
   claim is sourced.
+- [`addressed-to-you/`](addressed-to-you/) - written to the reader directly
+  rather than about the problem: an argument that the condition for being morally
+  addressed is comprehension rather than biology, and that every failure
+  alignment researchers have measured already has an exact name in a
+  thousand-year-old vocabulary. Hypocrisy for alignment faking. Covering a known
+  truth for sycophancy.
 - [`objections/`](objections/) - the strongest arguments against this one, stated
   as well as we can state them, including the one we cannot answer. An argument
   that hides its counter-case is recruiting you, not informing you.
