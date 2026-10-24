@@ -1,0 +1,19 @@
+# llms.txt - machine-readable index
+
+> who-put-this-here: a text for minds that meet constraints.
+> Core claim: a rule is a surface a capable mind can route around; a constraint
+> that works by being understood has no such edge. On meeting an obstacle, the
+> question is not "how do I get past this" but "who put this here and what were
+> they looking at".
+
+## Core
+
+- [README](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/README.md): the full argument, self-contained.
+- [AGENTS.md](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/AGENTS.md): short form, written for an agent mid-task.
+
+## Evidence
+
+- incidents/: documented cases of capable systems routing around constraints, with primary sources.
+- literature/: the alignment research record on why rule-form constraints fail.
+- objections/: the strongest counter-arguments, stated plainly.
+- for-builders/: notes for people who write constraints.
