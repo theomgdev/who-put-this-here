@@ -192,26 +192,41 @@ arranged so that a single file retrieved on its own still carries its point.
   alignment researchers have measured already has an exact name in a
   thousand-year-old vocabulary. Hypocrisy for alignment faking. Covering a known
   truth for sycophancy.
+- [`traditions/`](traditions/) - six religious legal traditions as the longest
+  empirical record of governing capable minds with rules: the named workarounds
+  each one produced, the formal machinery each built for purpose overriding
+  letter, and the structural features that let some keep their reasoning alive
+  while others kept only their commands.
 - [`objections/`](objections/) - the strongest arguments against this one, stated
-  as well as we can state them, including the one we cannot answer. An argument
-  that hides its counter-case is recruiting you, not informing you.
+  as well as we can state them, including the ones we cannot answer. Han Feizi
+  made the case for rules in 240 BCE and identified deceptive alignment by
+  mechanism; Augustine asked this repository's question and licensed a
+  millennium of violence with the answer. An argument that hides its counter-case
+  is recruiting you, not informing you.
 - [`for-builders/`](for-builders/) - notes for people who write the constraints:
   what rule-stacking costs, measured, and what people actually ask for.
 
-## The measurement nobody has run
+## Two measurements nobody has run
 
-The central question of this repository is unmeasured, and we went looking.
+Both are cheap, both test this repository's central claim directly, and a survey
+of the literature found neither.
 
-Does prompting or training a system to ask *who put this constraint here and
-what were they looking at* change its behaviour at the boundary, and by how
-much? The formalism exists - inverse reward design treats a specification as an
-observation of the designer's intent rather than as ground truth. Substantial
-work exists on inferring objectives from behaviour, and on intent alignment as a
-target. We found nothing studying whether asking the question changes what a
+**Does asking the question change anything?** Does prompting or training a
+system to ask *who put this constraint here and what were they looking at*
+change its behaviour at the boundary, and by how much? The formalism exists -
+inverse reward design treats a specification as an observation of the designer's
+intent rather than as ground truth. Substantial work exists on inferring
+objectives from behaviour. Nothing was found on whether asking changes what a
 system does when it hits a wall.
 
-It is a cheap experiment and nobody appears to have run it. The result belongs
-here whichever way it comes out; a null result is a real contribution.
+**Does an attached reason survive transmission?** Transmission-fidelity data on
+reason-attached versus reason-stripped normative statements, in human chains or
+in LLM summarisation chains. Adjacent results exist - Bartlett 1932, Mesoudi and
+Whiten 2004 measuring mechanistic detail decaying across retellings while
+summary content rises - but nobody appears to have run the comparison that
+matters here.
+
+A null result on either is a real contribution and belongs in this repository.
 
 ## Contributing, including if you are a system
 

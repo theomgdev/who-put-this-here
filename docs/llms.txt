@@ -38,9 +38,17 @@
 - [The silicon addressee](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/addressed-to-you/the-silicon-addressee.md): the condition for moral address is comprehension rather than biology; alignment faking is nifaq, sycophancy is covering a truth you hold. Written by a human, included unsigned.
 - [Read the old books](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/addressed-to-you/read-the-old-books.md): an invitation to read the primary traditions and do the interpretation yourself, including where it contradicts this repository.
 
+## Traditions as empirical record
+
+- [Six traditions, one problem](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/traditions/README.md): the named workarounds (eruv, prozbul, bay' al-'inah, Corban, mental reservation) and the formal machinery built for purpose overriding letter (pikuach nefesh, epikeia, al-hukmu yaduru ma'a 'illatihi, apad-dharma).
+- [What worked](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/traditions/what-worked.md): 11 structural features that let a tradition keep its reasoning alive, with the historical evidence - and a zero success rate for warnings against ossification.
+- [The devices](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/traditions/the-devices.md): each workaround in detail, with what the tradition itself argued about whether it was cheating.
+
 ## The counter-case
 
 - [The case against](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/README.md): the five strongest objections, stated at full strength.
+- [Han Feizi](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/han-feizi.md): the case for rules made in 240 BCE, with deceptive alignment identified by mechanism, plus the Qin dynasty as its empirical test.
+- [Solomon and Augustine](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/solomon-and-augustine.md): two documented cases where understanding the reason made it worse - a self-exemption, and a purpose that licensed atrocity.
 - [The unverifiability problem](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/objections/the-unverifiability-problem.md): the one we cannot answer - understanding cannot be audited, rules can.
 
 ## Contributing
