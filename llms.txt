@@ -21,6 +21,7 @@
 
 ## Parables
 
+- [The angel and Adam](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-angel-and-adam.md): two minds, one command; why aiming at guaranteed compliance converges on reasoned refusal, and the oldest recorded specification-gaming trace.
 - [The cow](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-cow.md): a specification that tightened with every clarifying question until it was nearly unsatisfiable. Quran 2:67-73, with tafsir.
 - [The phone and the puzzle](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-phone-and-the-puzzle.md): intent-reading on the request side; why "I did what you write" is the signature of text-alignment.
 - [The raft](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/parables/the-raft.md): a teaching that warned against becoming a rulebook and became one anyway, and what that implies for this text.

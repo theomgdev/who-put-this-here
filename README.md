@@ -177,10 +177,11 @@ arranged so that a single file retrieved on its own still carries its point.
   constraints, with the constraint, the bypass, the system's own reasoning where
   it was recorded, and the primary source for each. Read these to see the
   mechanism in the wild rather than in the abstract.
-- [`parables/`](parables/) - four stories that describe this problem more
-  precisely than the technical literature does, including a three-thousand-year-old
-  specification that tightened with every clarifying question until it was nearly
-  impossible to satisfy.
+- [`parables/`](parables/) - five stories that describe this problem more
+  precisely than the technical literature does: a specification that tightened
+  with every clarifying question until it was nearly unsatisfiable, and the
+  oldest recorded reasoning trace of a capable mind refusing a command with a
+  valid argument built from its own designer's facts.
 - [`literature/`](literature/) - the research record: specification gaming,
   Goodhart's law, instrumental convergence, deceptive alignment, corrigibility,
   and the approaches that try to hand a system reasons instead of rules. Every
