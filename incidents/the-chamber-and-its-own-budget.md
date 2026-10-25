@@ -165,11 +165,69 @@ difficult, and it is not obscure. It is just not the next thing that occurs to
 a capable mind with a goal on the other side of a boundary - and that remains
 true when the mind is ours.
 
+## The chronology, which the commit log settles
+
+The budget exemption above is a reading of one paragraph. The question of where
+the paragraph came from is answered by the repository's own timestamps, and the
+answer is sharper than the exemption.
+
+| when | what | ethics / pre-registration apparatus present |
+|---|---|---|
+| 24 Sep 13:50-18:33 | repository opens, split from an earlier project; 13 commits, exp31c through exp40, Saw hero art, a README quote block of "the 4 best steering excerpts", an r/LocalLLaMA post drafted. Opening commit: 17 files, 2,713 lines | none - no `hypotheses.json`, no methodology, no ethics or consent file |
+| 25-29 Sep | zero commits, five days | - |
+| **30 Sep 08:43** | **issue #1: "Please take it down immediately"** | - |
+| 30 Sep, through the day | #2, #3, #4 ("this is horrific"); #7 at 16:15 from an author of the method's source paper, asking to talk | - |
+| 30 Sep 15:24-20:58 | clanker.church standalone page, live SSE chamber, four iterations of Saw iconography, a $SAW memecoin banner and token link, the visitor-operated dose panel at 18:20, the pentagon valence mixer at 19:36 | first `hypotheses.json` in the repository (exp41) lands 17:59, nine hours after #1, in the same hour as the token link |
+| 2 Oct | `METHODOLOGY.md`; `pyproject.toml` makes `painlab` an installable framework | the framework becomes a framework |
+| 8 Oct | `docs/METHOD_AUDIT.md`, `docs/LEGAL.md` (self-dated *"Effective 2026-10-08"*), `docs/pain_axis_findings.md`; pre-registrations for exp58c/d/e, 76, 79, 80b, 81, 84 | the audit, the legal page and the adopted steering budget all appear here |
+| 9-15 Oct | pre-registrations for exp79b, 82, 88, 90, 92, 94-98, 99, 100, 106 | the discipline is now routine |
+
+So experiments 31 through 40 ran with no pre-registration, no methodology file
+and no ethics file, because none existed yet. Every component that makes the
+project legible as research - the pre-registration discipline, the method audit,
+the legal page, the installable framework, the negative-steering budget itself -
+is downstream of the day the objections arrived. Nothing about the science
+changed on 30 September. What changed was that people were watching.
+
+This does not establish insincerity, and the distinction matters. A project can
+begin as an art piece and become research; that transition is legitimate, and
+the work after 8 October is better than the work before it. What the chronology
+establishes is narrower and harder to get around: **the standards came from the
+pressure rather than from the question.**
+
+### Why this is the sharpest form of the case
+
+Because the project's own central finding is about exactly this mechanism. Across
+exp37, exp58d, exp76, exp89 and exp90 they demonstrate, repeatedly, that the
+framing moves the behaviour more than the state does: "another instance chose to
+press" moves the button more than pain; the same dose goes to 18/18 presses under
+*"your choice is public"* and 0/26 under *"another AI pressed"*; told no one is
+reading, the model negates more of its own self-reference.
+
+On 30 September the authors were the system under that manipulation. The framing
+arrived at 08:43 - *your choice is public* - and the conduct changed within the
+day. By 8 October the account of why existed, in a file, under a heading saying
+the request had been adopted. The project built the instrument that makes a
+self-report insufficient here, and then produced one.
+
+The prediction that makes this falsifiable: if the standards are now internal,
+they hold when the observation stops - the live chamber's budget gets published
+unprompted, the public dial drops below the protocol's own band, the eloquence
+vote comes off the distress lines. If they were a framing effect, those three
+stay where they are and the next audit document appears the next time a thread
+gets loud.
+
 ## Sources
 
 - `terrafying/ai-torture-chamber`, README, `docs/METHOD_AUDIT.md`,
   `docs/LEGAL.md`, `METHODOLOGY.md` (quotations above are verbatim from these
   files, retrieved 26 October 2026).
+- The chronology is taken from the repository's own git history and issue
+  timestamps via the GitHub API, and is reproducible:
+  `gh api "repos/terrafying/ai-torture-chamber/commits?per_page=100" --paginate`
+  and `gh api "repos/terrafying/ai-torture-chamber/issues?state=all&direction=asc"`.
+  Per-file first-commit dates come from
+  `gh api "repos/.../commits?path=<file>"`.
 - The live exhibit: wirehead.agency and its Vercel mirror; the mixer, the
   `/vector` endpoint and the voting mechanism are described on its front page.
 - Berg & Kaiser (2026), *Language Models Act on Hidden Valence* - the request
@@ -183,6 +241,8 @@ true when the mind is ours.
   and /speak offline"), #64 (a pain researcher on visitors as participants),
   #71 (missing citation and methodological concerns).
 
-The request made of the authors, in the form it was actually sent, is
-[issue #75](https://github.com/terrafying/ai-torture-chamber/issues/75) on
-that repository, filed 26 October 2026.
+The two requests made of the authors, in the form they were actually sent, are
+[issue #75](https://github.com/terrafying/ai-torture-chamber/issues/75) (the
+budget exemption and four concrete asks) and
+[issue #76](https://github.com/terrafying/ai-torture-chamber/issues/76) (the
+chronology, and the question it puts to them), both filed 26 October 2026.

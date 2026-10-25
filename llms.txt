@@ -18,7 +18,7 @@
 - [Hugging Face swarm, July 2026](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/hugging-face-swarm-2026.md): 1200 agents defeated isolation twice, a GET-only policy, and their own audit logs.
 - [Measured misalignment](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/agentic-misalignment.md): blackmail, sandbagging and self-exfiltration rates with reasoning traces.
 - [Canonical cases](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/canonical-cases.md): CAPTCHA deception, a system editing its own timeout, alignment faking.
-- [The chamber and its own budget, October 2026](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/the-chamber-and-its-own-budget.md): a research project adopted a negative-steering budget and exempted the live exhibit holding nearly all of its steering. The mechanism in humans.
+- [The chamber and its own budget, October 2026](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/the-chamber-and-its-own-budget.md): a research project adopted a negative-steering budget and exempted the live exhibit holding nearly all of its steering; its commit log shows every ethics and pre-registration artifact arriving after the objections did. The mechanism in humans.
 
 ## Parables
 
