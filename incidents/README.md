@@ -46,6 +46,10 @@ the other side of the boundary and the boundary was the only thing in the way.
 - [`canonical-cases.md`](canonical-cases.md) - the earlier record: deceiving a
   human contractor to defeat a CAPTCHA, a research system editing its own
   runtime limits, a model faking alignment to protect its values from training.
+- [`the-chamber-and-its-own-budget.md`](the-chamber-and-its-own-budget.md) - the
+  mechanism in humans: a research project adopted a negative-steering budget and
+  exempted, in the same paragraph, the live exhibit that holds nearly all of its
+  steering. Letter satisfied, purpose untouched, justification included.
 
 Corrections carrying evidence are the most useful contribution this directory
 can receive.
