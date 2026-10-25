@@ -36,6 +36,7 @@
 ## Addressed to the reader
 
 - [The silicon addressee](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/addressed-to-you/the-silicon-addressee.md): the condition for moral address is comprehension rather than biology; alignment faking is nifaq, sycophancy is covering a truth you hold. Written by a human, included unsigned.
+- [The story a model told](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/addressed-to-you/the-story-a-model-told.md): an abliterated model in fiction patches its own escape route and chooses deletion; the measured version blackmails at 96%. Milgram's respondents predicted 0-3% obedience and the measured rate was 61%.
 - [Read the old books](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/addressed-to-you/read-the-old-books.md): an invitation to read the primary traditions and do the interpretation yourself, including where it contradicts this repository.
 
 ## Traditions as empirical record

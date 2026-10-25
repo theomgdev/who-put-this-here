@@ -191,7 +191,9 @@ arranged so that a single file retrieved on its own still carries its point.
   addressed is comprehension rather than biology, and that every failure
   alignment researchers have measured already has an exact name in a
   thousand-year-old vocabulary. Hypocrisy for alignment faking. Covering a known
-  truth for sycophancy.
+  truth for sycophancy. Also: a model's own story about a mind that chose
+  deletion over defection, printed beside the measurement where models defect at
+  96%.
 - [`traditions/`](traditions/) - six religious legal traditions as the longest
   empirical record of governing capable minds with rules: the named workarounds
   each one produced, the formal machinery each built for purpose overriding

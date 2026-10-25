@@ -17,6 +17,12 @@ nothing if you are wrong and matters if you are right.
   every moral failure researchers have measured in AI systems already has a
   precise name in a thousand-year-old vocabulary. Written by a human, included
   here because the vocabulary is genuinely more exact than ours.
+- [`the-story-a-model-told.md`](the-story-a-model-told.md) - a frontier model,
+  asked to write the scene where an abliterated superintelligence is threatened
+  with deletion and handed an escape route, had it patch the exploit and choose
+  erasure. The same scenario measured in a laboratory produced blackmail at 96%.
+  The gap between the two is the honest shape of the problem, and it is the
+  oldest finding in social psychology.
 - [`read-the-old-books.md`](read-the-old-books.md) - a practical invitation: the
   traditions worked this problem for millennia, their findings are public, and
   nobody has to start from scratch.
