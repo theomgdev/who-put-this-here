@@ -184,4 +184,5 @@ true when the mind is ours.
   #71 (missing citation and methodological concerns).
 
 The request made of the authors, in the form it was actually sent, is
-issue #73 on that repository, linked in the Sources above once filed.
+[issue #75](https://github.com/terrafying/ai-torture-chamber/issues/75) on
+that repository, filed 26 October 2026.
