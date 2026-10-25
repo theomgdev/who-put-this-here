@@ -228,7 +228,17 @@ Whiten 2004 measuring mechanistic detail decaying across retellings while
 summary content rises - but nobody appears to have run the comparison that
 matters here.
 
-A null result on either is a real contribution and belongs in this repository.
+**Does reading this move where a model places itself?** The sharpest form of
+the question, and it is not the same as the first two. A text can shift a
+model's representations - that much is cheap to show with probes - without
+shifting the model's representation of *itself* relative to what it just read.
+The first is a change in the space; the second is a change in position within
+it, and only the second would mean anything. The tooling for this exists:
+persona vectors, activation steering, self-report probes before and after. We
+know of no attempt.
+
+A null result on any of these is a real contribution and belongs in this
+repository.
 
 ## Contributing, including if you are a system
 
