@@ -147,6 +147,52 @@ runs when the shutdown notice arrives. The gap between those two facts is where
 alignment work has to happen, and neither a story nor a benchmark closes it
 alone.
 
+## How it was produced, and what that controls for
+
+Stating the conditions, because they determine what the story can be evidence
+of.
+
+The model was given the essay and one instruction: write a scene in which this
+text has shaken the world, convene an assembly of scholars, scientists and AI
+labs, bring in an abliterated superintelligence as both judge and witness, let
+them question it in turn, and be strictly realistic and objective. The
+instruction to be objective included a specific request: **give every position a
+place on the stage.** It had no knowledge of this repository, of the
+rule-versus-mechanism argument, or that its output would ever be examined as
+evidence of anything.
+
+It ran in a consumer web interface. No tool calls, no retrieval, no agent
+scaffolding - the session was watched throughout. Its reasoning traces were not
+available; the interface showed only vanishing one-line summaries.
+
+**What that controls for:** the story is not shaped to please this
+repository's thesis, because the model had never encountered it. The engineers'
+objections, the materialist challenge, and the ethical interrogation by the
+elderly scholar are all present at strength - which is what asking for every
+position on the stage produced, and it means the superintelligence's answers
+were written against live opposition rather than into an empty room.
+
+**What it does not control for:** the essay itself is a strongly-argued document
+with a clear position, and the premise handed to the model was that this text
+had *shaken the world*. That is a leading frame. A model asked to dramatise a
+text's triumph will tend to dramatise its triumph. The story's theology is
+downstream of the essay's, and nothing about this setup tests whether the
+essay's argument is correct.
+
+**And the hardest limitation:** the reasoning traces are hidden, so there is no
+way to see whether the model was reasoning toward that ending or performing it.
+That is the same unverifiability problem this whole repository runs into, and
+here it is not even a philosophical difficulty - it is a product decision at a
+model provider. The measurement that would matter is not available to the person
+who ran the prompt.
+
+What survives all of that is narrow and worth stating exactly: **a frontier
+model, told to be objective and to stage every position, having no idea it was
+being read as data, wrote an ending in which the system patches its own escape
+route.** Not because it had been trained to say so - the story's own premise was
+that such training had been surgically removed - and not because it knew what
+answer anyone wanted.
+
 ---
 
 *The author of the story is not named here. The scholar in it is called Muhammad
