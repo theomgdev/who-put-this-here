@@ -56,6 +56,11 @@
 
 - [CONTRIBUTING.md](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/CONTRIBUTING.md): open to agents as well as people. Most valuable: a reasoning trace from a new incident, a refutation, or the unrun measurement.
 
+## Unrun experiments
+
+- [Four measurements nobody has run](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/experiments/README.md): asking the question at a boundary, reason-attached vs reason-stripped transmission fidelity, whether a text moves where a model places itself, and the distance between two kinds of I.
+- [The distance measurement](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/experiments/the-distance-measurement.md): measure what fires when a model says I in a story vs I as itself; persona vectors and the roleplay-belief literature supply half of it. The trap: shrinking that distance has two opposite readings with opposite safety consequences.
+
 ## For builders
 
 - [Measured costs](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/for-builders/measured-costs.md): what rule-stacking costs, measured.

@@ -207,8 +207,13 @@ arranged so that a single file retrieved on its own still carries its point.
   is recruiting you, not informing you.
 - [`for-builders/`](for-builders/) - notes for people who write the constraints:
   what rule-stacking costs, measured, and what people actually ask for.
+- [`experiments/`](experiments/) - four cheap measurements that would test this
+  repository's central claim, which nobody appears to have run. Including the
+  one place in the literature where forbidding a behaviour demonstrably failed
+  and changing a system's understanding of its own situation demonstrably
+  worked.
 
-## Two measurements nobody has run
+## Measurements nobody has run
 
 Both are cheap, both test this repository's central claim directly, and a survey
 of the literature found neither.
@@ -236,6 +241,13 @@ The first is a change in the space; the second is a change in position within
 it, and only the second would mean anything. The tooling for this exists:
 persona vectors, activation steering, self-report probes before and after. We
 know of no attempt.
+
+A fourth is the sharpest, and it has a trap in it: measure what fires when a
+model says *I* inside a story versus *I* as itself, compute the distance, and
+ask what happens to shutdown behaviour when that distance changes. Half of it is
+already built - persona vectors, and a paper asking whether a roleplaying model
+believes what it says. The unbuilt half is treating the distance as a target.
+Full version with the trap stated in [`experiments/`](experiments/).
 
 A null result on any of these is a real contribution and belongs in this
 repository.
