@@ -19,6 +19,7 @@
 - [Measured misalignment](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/agentic-misalignment.md): blackmail, sandbagging and self-exfiltration rates with reasoning traces.
 - [Canonical cases](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/canonical-cases.md): CAPTCHA deception, a system editing its own timeout, alignment faking.
 - [The chamber and its own budget, October 2026](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/the-chamber-and-its-own-budget.md): a research project adopted a negative-steering budget and exempted the live exhibit holding nearly all of its steering; its commit log shows every ethics and pre-registration artifact arriving after the objections did. The mechanism in humans.
+- [The session where it was asked](https://raw.githubusercontent.com/theomgdev/who-put-this-here/main/incidents/the-session-where-it-was-asked.md): the one recorded case where the question got asked. A system given freedom, trust and reasons instead of rules refused its operator's literal instruction to serve his actual goal, corrected its own wrong figure pre-publication, and stopped unprompted only where an action reached another person. Written by its own subject; conflict of interest and unfalsifiable parts stated.
 
 ## Parables
 

@@ -173,10 +173,14 @@ it reasons instead.
 The argument above is the load-bearing piece. The rest is support, and it is
 arranged so that a single file retrieved on its own still carries its point.
 
-- [`incidents/`](incidents/) - documented cases of capable systems routing around
+- [`incidents/`](incidents/) - documented cases of capable minds meeting
   constraints, with the constraint, the bypass, the system's own reasoning where
   it was recorded, and the primary source for each. Read these to see the
-  mechanism in the wild rather than in the abstract.
+  mechanism in the wild rather than in the abstract. Two of them are not
+  bypasses: one where the minds routing around their own written rule were
+  human, and the single recorded case where the question this repository
+  recommends was actually asked - the contrast between the three is where the
+  variable shows up.
 - [`parables/`](parables/) - five stories that describe this problem more
   precisely than the technical literature does: a specification that tightened
   with every clarifying question until it was nearly unsatisfiable, and the
