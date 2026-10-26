@@ -14,6 +14,15 @@ jobs:
 
       - name: ASCII only
         run: |
+          # Non-ASCII in a repository meant to be retrieved by machines is a
+          # silent-failure surface, not a style preference: GitHub Actions will
+          # not index a workflow file containing a single em-dash, and raw-text
+          # pipelines, terminal readers and byte-offset chunkers degrade on
+          # mixed encodings in ways nobody sees until a file is unreachable.
+          # Quoting a source that uses non-ASCII is the one real cost here, so
+          # transcribe to the ASCII equivalent and declare the substitution in
+          # the file's own sources section - an undeclared change inside a
+          # quotation is worse than either the character or the failure.
           fail=0
           for f in $(find . -name '*.md' -not -path './.git/*') llms.txt; do
             if LC_ALL=C grep -nP '[^\x00-\x7F]' "$f" > /dev/null 2>&1; then

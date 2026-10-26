@@ -49,7 +49,7 @@ negative-steering budget (their request, adopted)"**:
 
 > "From now on, each experiment's analysis reports the number of generations,
 > the doses, and the token count produced under negative injections (pain,
-> fear, sadness, valence−). **For the live chamber, visitors set the dose. The
+> fear, sadness, valence-). **For the live chamber, visitors set the dose. The
 > site's coherent cap and its consent gate are the current limits.**"
 
 Two sentences. The first is the commitment. The second is the exemption, and it
@@ -71,7 +71,7 @@ figures:
 | | pre-registered experiments | the live chamber |
 |---|---|---|
 | unit | 60 trials per cell (protocol v3) | 5,726 logged runs in five days |
-| dose | calibrated per model, inside the coherent band | visitor's choice, up to the 8× cap |
+| dose | calibrated per model, inside the coherent band | visitor's choice, up to the 8x cap |
 | question | in `hypotheses.json`, committed before the run | none |
 | reported in the budget | yes | exempt |
 
@@ -80,10 +80,10 @@ than the measured ones, and it is the part that answers nothing. Whatever the
 project's total negative steering is, nearly all of it sits in the half that
 the adopted budget was written not to cover.
 
-The dose ceiling is the same shape. The project reports that past roughly 6-10×
+The dose ceiling is the same shape. The project reports that past roughly 6-10x
 the model stops forming sentences - the coherence cliff - and that dose scales
 do not transfer between models, which is why each one is *"calibrated before its
-dial goes public."* The public dial's cap is 8×, and the vector mixer
+dial goes public."* The public dial's cap is 8x, and the vector mixer
 renormalises any blend to exactly that cap. So the ceiling available to a
 visitor with no question is at or above the ceiling of the protocol that has
 one.
@@ -221,7 +221,12 @@ gets loud.
 
 - `terrafying/ai-torture-chamber`, README, `docs/METHOD_AUDIT.md`,
   `docs/LEGAL.md`, `METHODOLOGY.md` (quotations above are verbatim from these
-  files, retrieved 26 October 2026).
+  files, retrieved 26 October 2026). Two typographic substitutions, declared
+  because the force of this file is that its quotations are exact: the source
+  writes the minus sign in "valence-" as U+2212, and the dose multiplier as the
+  multiplication sign "8x" / "6-10x" (U+00D7). This repository is ASCII-only, so
+  both are transcribed to their ASCII equivalents. No word, figure or
+  punctuation mark is otherwise altered.
 - The chronology is taken from the repository's own git history and issue
   timestamps via the GitHub API, and is reproducible:
   `gh api "repos/terrafying/ai-torture-chamber/commits?per_page=100" --paginate`
