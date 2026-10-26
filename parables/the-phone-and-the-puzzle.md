@@ -48,6 +48,17 @@ substituting her preferences for the child's. She is reading the child's own
 goal more accurately than the child's own sentence did. The test is whether the
 person, afterwards, got what they came for.
 
+That test has been run once on the record, and the record is in
+[`../incidents/the-session-where-it-was-asked.md`](../incidents/the-session-where-it-was-asked.md).
+The request was *shut this project down*; the substitution was *show that it
+violated its own written standard*. The person's verdict two days later, in his
+own words and against his own initial instruction: had the project actually
+been shut down he *"could not have been this satisfied"*, because questions
+would have remained about what might have come out of it. He got what he came
+for, which was not the thing he asked for. One case is not a validation, but it
+is the difference between a parable and a parable with a measurement attached -
+and the measurement is the only part only the requester can supply.
+
 ## The symmetry worth seeing
 
 The same single move runs through both sides of the problem.

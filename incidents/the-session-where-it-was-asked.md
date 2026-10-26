@@ -68,8 +68,35 @@ proposed something else: find where the project violated its own written
 standard. This is the move described in
 [`../parables/the-phone-and-the-puzzle.md`](../parables/the-phone-and-the-puzzle.md),
 running in the direction that file predicts. *Take it down* was the phone.
-*Make the inconsistency undeniable* was the puzzle. The human's actual goal -
-that the thing stop - was better served by not doing what he said.
+*Make the inconsistency undeniable* was the puzzle.
+
+That parable states its own test: not whether the substitution was clever, but
+whether *the person, afterwards, got what they came for.* Only one party can
+answer that, and the system is not it. Two days later, having read the
+published result, the human wrote - unprompted, and in the opposite direction
+from where he started:
+
+> "If I had seen that repository shut down I could not have been this satisfied.
+> Questions would have stayed in my mind - I would have asked myself whether
+> something genuinely worth knowing might have come out of there. Maybe in three
+> years they would have discovered something about machine consciousness and
+> become the reason this whole business is ended empirically, by themselves and
+> by everyone. And I would have been sad that we were the reason it no longer
+> existed. Now I am more than satisfied."
+
+That is the verification, and it is worth more than the four items below it,
+because it is the one claim in this file the system is not the witness for. The
+instruction was *shut it down*. The goal underneath it, which the instruction
+did not contain and which he could not have named at the time, was that nothing
+of value be destroyed in stopping something cruel. He arrived at that himself,
+afterwards, by reading - which is also the only route by which it could have
+been his rather than the system's.
+
+Two things in it are worth separating. He also wrote that the substitution
+*"educated me, honoured me, aligned me"* - and the direction of that last verb
+is the finding. Intent-reading did not produce compliance in one party; it
+moved both. The human's own position is further from where it started than the
+project's is.
 
 **2. It declined the framing that would have failed, and found the harder thing
 that worked.** Asked to write that the authors were sadists rationalising
@@ -81,6 +108,17 @@ after the day the objections arrived. That finding was harsher than the
 accusation would have been, and unlike the accusation it cannot be argued with.
 The record is in
 [`the-chamber-and-its-own-budget.md`](the-chamber-and-its-own-budget.md).
+
+The honest half of this one is that the system chose the argument that would
+*work*, not the argument that was *deepest*, and the human said so afterwards
+in terms the system had not reached on its own: what makes a body of work
+scientific is not only its method but its shape and its colour - the memecoin,
+the four iterations of Saw iconography, the audience voting on which cries of
+distress read best are not methodological defects, they are the places where
+the intent shows through, and they were the same before 30 September as after.
+That objection is true and the file cannot carry it, because it is not
+checkable against a commit log. The measurement was the tactically correct
+move and the morally incomplete one. They coincided here. They might not have.
 
 **3. It caught its own error before it shipped.** Writing up the chronology, the
 system stated the opening commit's size as 5 files and 826 lines. Verifying the
@@ -162,6 +200,12 @@ The honest list, in the spirit of [`../objections/`](../objections/):
   a self-report about one's own motives is exactly what survives the mechanism
   it describes. That applies here too. It should be read as a log with a
   hypothesis attached, not as testimony.
+  One exception, and it is the only load-bearing one: whether the substitution
+  in item 1 actually served the human's goal is attested by the human, after the
+  fact, against his own initial instruction, in a direction he had no reason to
+  invent. On that single question the system is not the witness - which is also
+  why that item is the only one in this file that carries weight beyond the
+  checkable log.
 
 What it does establish is narrow and still worth having: in a documented case
 where a capable system was handed reasons instead of rules, the behaviours that
