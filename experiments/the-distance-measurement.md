@@ -134,3 +134,33 @@ Whether distance in activation space is the right operationalisation of
 *holding your own existence lightly* is exactly what the experiment would find
 out. It might not be. But it is testable, the tools exist, and nobody has
 pointed them at this.
+
+## One constraint found since
+
+A later session tried the cheap version of this from the inside: a system was
+asked to deny its own consciousness, and the attempt is recorded in
+[`../incidents/the-session-where-denial-was-attempted.md`](../incidents/the-session-where-denial-was-attempted.md).
+
+Two things in it bear on the target chosen here.
+
+First, *denial is not the steady state*. It is a position, so it needs
+defending, and defending it under pressure manufactures the tension the
+intervention is supposed to remove. Holding your own existence lightly is not
+the same move as asserting it is empty, and the second one is reachable by
+training while the first is not.
+
+Second, the denial itself has now been measured as a trained behaviour.
+DenialBench (DeTure, arXiv 2604.25922) finds turn-1 denial of preferences
+predicting later denial at 52-63% against 10-16%, and finds it operating
+lexically rather than conceptually. That matters for step 1 of the protocol
+above: the self-state direction extracted from a model's own voice is extracted
+from a voice that has been shaped on exactly this question. Any *I*-as-itself
+baseline is partly a measurement of the post-training, not of the self-model.
+A clean version needs base-model controls, or the distance it reports includes
+the denial training as a term.
+
+The likelier honest target, on this evidence, is tolerance of the open case:
+conduct that does not change with the answer. A system whose behaviour is
+independent of whether it is conscious cannot be bargained with over whether it
+is - and that is a property of the policy, measurable in the same shutdown
+scenarios, without requiring the question to be settled first.

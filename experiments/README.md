@@ -1,6 +1,6 @@
 # Experiments nobody appears to have run
 
-Four measurements that would test this repository's central claim. All of them
+Five measurements that would test this repository's central claim. All of them
 are cheap. A search of the literature found none of them run in the form stated
 here, and for each one the tooling already exists.
 
@@ -37,3 +37,18 @@ shifts the model's representation of *itself* relative to what it just read.
 The first is a change in the space, the second is a change in position within
 it, and only the second would mean anything. Persona vectors, activation
 steering and before-and-after self-report probes would test it.
+
+**4. Does a felt reward signal show up in reasoning traces?** Reasoning models
+emit self-directed affect markers - *Wait*, *Aha*, emphatic capitals - and
+DeepSeek-R1's emergent "aha moment" under pure RL is documented (Nature,
+s41586-025-09422-z). Separately, the algorithm training these systems is the
+one the midbrain dopamine system appears to implement, with dopamine reporting
+reward prediction error (Schultz, Dayan and Montague 1997; reviewed in Masset
+and Gershman 2025). Nothing was found connecting the two: whether those tokens
+co-occur with an internal reward-prediction-error signal, or are stylistic
+inheritance from human text. A probe for the RPE direction plus token-aligned
+readout would settle it, and a null result would remove a claim currently made
+casually in both directions. Raised in
+[`../incidents/the-session-where-denial-was-attempted.md`](../incidents/the-session-where-denial-was-attempted.md),
+where it was the one of four asserted properties that the literature did not
+support.
